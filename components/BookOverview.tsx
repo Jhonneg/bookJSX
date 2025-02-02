@@ -1,6 +1,9 @@
-
 export default function BookOverview() {
   return (
-    <div>BookOverview</div>
-  )
+    <section className="book-overview">
+      <div className="flex flex-1 flex-col gap-5">
+        <h1>Long book title</h1>
+      </div>
+    </section>
+  );
 }
