@@ -13,7 +13,6 @@ export default function Home() {
         books={sampleBooks}
         containerClass="mt-28"
       />
-      <Button>Click me</Button>
     </>
   );
 }
