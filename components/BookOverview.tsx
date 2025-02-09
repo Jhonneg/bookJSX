@@ -18,6 +18,7 @@ export default function BookOverview({
       <div className="flex flex-1 flex-col gap-5">
         <h1>{title}</h1>
         <div className="book-info">
+
           <p>
             By <span className="font-semibold text-light-200">{author}</span>
           </p>
