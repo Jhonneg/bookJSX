@@ -11,7 +11,7 @@ export default function Home() {
       <BookList
         title="latest Books"
         books={sampleBooks}
-        containerClass="mt-28"
+        containerClassName="mt-28"
       />
     </>
   );

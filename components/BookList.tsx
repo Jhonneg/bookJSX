@@ -14,7 +14,7 @@ export default function BookList({ title, books, containerClassName }: Props) {
 
       <ul className="book-list">
         {books.map((book) => (
-          <BookCard />
+          <BookCard key={book.title} {...book} />
         ))}
       </ul>
     </section>
